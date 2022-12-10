@@ -1,0 +1,8 @@
+public class NotRegisteredException extends RuntimeException {
+
+    public NotRegisteredException(String name) {
+
+        super("Player with name " + name + " does not exist.");
+
+    }
+}
